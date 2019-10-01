@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1819631829581036}
+  m_IsPrefabAsset: 1
+--- !u!1 &1819631829581036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4087773993481362}
+  - component: {fileID: 114394944743108978}
+  - component: {fileID: 114141431855742428}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4087773993481362
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819631829581036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0491576, y: 0.20830184, z: -0.023713216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114141431855742428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819631829581036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10b676b89df68c4089629ed7bca4729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1000011539305864, guid: ddb8dec8e9dcf304fa398c7cc1bcd40a, type: 2}
+  grassFloorTiles:
+  - {fileID: 159316, guid: 6266d529408437845807f9e648aaa079, type: 2}
+  - {fileID: 151520, guid: b0e19ceef9e978f44a8c3cdcd009deae, type: 2}
+  - {fileID: 184800, guid: a737e69a566d57d49bbf474136cbb59c, type: 2}
+  - {fileID: 151280, guid: 8d7028c5057536a4489d55c4477ca248, type: 2}
+  - {fileID: 114472, guid: 9b83c9ceeb7955a46a945af21fd39e5a, type: 2}
+  - {fileID: 153072, guid: ad553e876bf0a3640a74166b2a9472ee, type: 2}
+  - {fileID: 165594, guid: 8c335d21106100d41b2bb07c7ee48c03, type: 2}
+  - {fileID: 155140, guid: 80213139dd8ffb24db46fe0c720f9e06, type: 2}
+  - {fileID: 121276, guid: da7434cdb2dc3394d8a60eaaf8f942f1, type: 2}
+  - {fileID: 181116, guid: 362ffa565e0a1f4419f8d5a759bb0955, type: 2}
+  - {fileID: 101110, guid: c903d114306ed9940b7c15172e1b2f90, type: 2}
+  - {fileID: 156896, guid: 9477b32ebf03a064da29ac04b093f993, type: 2}
+  - {fileID: 148076, guid: d37b83d2af5bc0a48b9dfbb65701bead, type: 2}
+  - {fileID: 190632, guid: d59b62ff95a79904b88408c823c99368, type: 2}
+  dirtFloorTiles:
+  - {fileID: 1953946590266096, guid: 82076f82ca5416e46aae3d52e447a43b, type: 2}
+  - {fileID: 1404364005726242, guid: 4638de2e91831b84b86acae04e0eaa60, type: 2}
+  - {fileID: 1593091905089670, guid: 8c4e9e1da9c7e1d4d8ca43b76413b4f2, type: 2}
+  - {fileID: 1516686506711630, guid: e392909eff1156741afc109dfd6c0c6c, type: 2}
+  - {fileID: 1352595938841124, guid: 00e6c0c18b80a504ca1d40d3767b9c71, type: 2}
+  stoneGrassFloorTiles:
+  - {fileID: 1672807926588336, guid: d2daf6380338fca4c86f1dbf7988fdbe, type: 2}
+  - {fileID: 1060988237413954, guid: 983d1773e986e434fa76b42b7d5982cc, type: 2}
+  - {fileID: 1815798962262744, guid: df3305f79ba51d8438e19335c46b64ca, type: 2}
+  grassThemeObjects:
+  - {fileID: 141404, guid: 336af67b9e7145847b5630a92054bbad, type: 2}
+  - {fileID: 124980, guid: 90cd4da67cbf6464289822a27064e667, type: 2}
+  - {fileID: 101566, guid: a37d902dc1cef93438c6428377d47bbe, type: 2}
+  - {fileID: 159018, guid: d2b7080a2e6196d43857822187f8db55, type: 2}
+  - {fileID: 171620, guid: 64794b9c235ca9a489301a998af51478, type: 2}
+  - {fileID: 102334, guid: 6065e56c407596348aeba4bf29ce8fb3, type: 2}
+  - {fileID: 127474, guid: f87ad6332cef82d4b961dabfed21a29a, type: 2}
+  - {fileID: 198270, guid: 235a244efb5383145bb9e8696dd21cb0, type: 2}
+  - {fileID: 196328, guid: bbb085138b2448c4da72b1b0dc3d0f28, type: 2}
+  - {fileID: 160018, guid: aa39b03c72b8e5442b70c8330b8cb506, type: 2}
+  - {fileID: 184446, guid: 60aad4c8f10ac914da8e874ff1fb7ac8, type: 2}
+  - {fileID: 197142, guid: b685b15e98ba4154d95edc338a737dec, type: 2}
+  - {fileID: 121380, guid: f30f1871ed6a2b94ea8cdc2aa6432e6e, type: 2}
+  - {fileID: 164844, guid: 980a18619ae47124cb6fb83f82bf87ca, type: 2}
+  - {fileID: 1920607388884386, guid: dbe2cc2c55ea99f468aba269a27a2068, type: 2}
+  - {fileID: 1224075762091518, guid: da5eeda4e7330b4438137895d82242d2, type: 2}
+  dirtThemeObjects:
+  - {fileID: 110272, guid: 419c3e7b84266014aa1c3cf480205c15, type: 2}
+  - {fileID: 1184602607769238, guid: a4f5563ade083864eb3bd9efbca2de7a, type: 2}
+  - {fileID: 1828521538220230, guid: 5ee4c10b33e98184baad1271889ee003, type: 2}
+  - {fileID: 124056, guid: deef0a7b9a522f34c8893a6d06238977, type: 2}
+  - {fileID: 109482, guid: 588fd4b171084524fafc2475dc402948, type: 2}
+  - {fileID: 159996, guid: 9fa76d6e991fb024499d2d3ca5710ece, type: 2}
+  - {fileID: 196226, guid: 03ea3870df7ab584f9e6ade1fdd0b6da, type: 2}
+  - {fileID: 1920883888059766, guid: 43f439f19e728b14da45375778308406, type: 2}
+  - {fileID: 141386, guid: 8d898cac243cc2b4abbd368205dcd1a3, type: 2}
+  - {fileID: 138500, guid: a895332561f6e9e4b92a94654a0e6681, type: 2}
+  - {fileID: 1921290713532950, guid: 6003cc16c4fc3dd41927c8638a3374ac, type: 2}
+  stoneGrassThemeObjects:
+  - {fileID: 1224075762091518, guid: da5eeda4e7330b4438137895d82242d2, type: 2}
+  - {fileID: 1920883888059766, guid: 43f439f19e728b14da45375778308406, type: 2}
+  - {fileID: 114446, guid: 90d77c6be87b7154798de2aaaf339b2f, type: 2}
+  - {fileID: 1388392635205518, guid: 6db98cdf70010364e88d2829fad3a0d6, type: 2}
+  - {fileID: 193708, guid: 056d7ee7ad1b4804ca993d18ea3446a1, type: 2}
+  - {fileID: 194882, guid: c2babc20e9bc8e64393b78ef60266324, type: 2}
+  - {fileID: 109482, guid: 588fd4b171084524fafc2475dc402948, type: 2}
+  - {fileID: 101566, guid: a37d902dc1cef93438c6428377d47bbe, type: 2}
+  - {fileID: 124056, guid: deef0a7b9a522f34c8893a6d06238977, type: 2}
+  - {fileID: 124980, guid: 90cd4da67cbf6464289822a27064e667, type: 2}
+  - {fileID: 1828521538220230, guid: 5ee4c10b33e98184baad1271889ee003, type: 2}
+  - {fileID: 110272, guid: 419c3e7b84266014aa1c3cf480205c15, type: 2}
+  - {fileID: 141404, guid: 336af67b9e7145847b5630a92054bbad, type: 2}
+  upperFence: {fileID: 182060, guid: be9b15e61cbb16d499a20816cd28511d, type: 2}
+  lowerFence: {fileID: 1387825479205052, guid: 36fc6d59183cfe94ebbefad3da931267, type: 2}
+  rightSideFence: {fileID: 154338, guid: 4d79740565ed4cd47b3c1d84fd804617, type: 2}
+  leftSideFence: {fileID: 100856, guid: 42bc53e5745dca94d8ea77ddc010af22, type: 2}
+--- !u!114 &114394944743108978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819631829581036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b217de685a0114a999d14a914b0ce1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playersTurn: 1
